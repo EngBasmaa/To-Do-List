@@ -23,9 +23,19 @@ p {
 main {
   display: flex;
   flex-direction: column;
+  height:auto;
+  margin-top: 20px;
+  /* to make the tasks be centered at main */
+  align-items: center;
+}
+
+#container{
+    border:5px solid red;
+    display: flex;
+  flex-direction: column;
   justify-content:space-evenly;
-  height:300px;
-  margin-top: 50px;
+  height:auto;
+  width:100%;
   /* to make the tasks be centered at main */
   align-items: center;
 }
